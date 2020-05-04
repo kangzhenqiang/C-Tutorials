@@ -22,6 +22,7 @@ int getSubStr(char* souce, char* buf1, char* buf2)
 	char* temp = souce;
 	int index1 = 0;
 	int index2 = 0;
+	/*
 	for (size_t i = 0; i < strlen(temp); i++)
 	{
 		if (i % 2 == 0)//ÆæÊýÎ»
@@ -35,6 +36,18 @@ int getSubStr(char* souce, char* buf1, char* buf2)
 			index2++;
 		}
 	}
+	*/
+
+	while (*souce)
+	{
+		*buf1 = *souce;
+		souce++;
+		buf1++;
+		*buf2 = *souce;
+		souce++;
+		buf2++;
+	}
+
 	buf1[index1] = '\0';
 	buf2[index2] = '\0';
 	return ret;

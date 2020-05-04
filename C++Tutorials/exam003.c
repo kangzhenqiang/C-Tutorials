@@ -34,6 +34,30 @@ int trimSpaceInKeyValue(char* inbuf/*in*/, char* outbuf/*out*/)
 	return 0;
 }
 
+int trimSpaceCorrectInKeyValue(char* inbuf/*in*/, char* outbuf/*out*/)
+{
+	if (inbuf == NULL || outbuf == NULL)
+	{
+		printf("trimSpace fun error:%d(inbuf or outbuf is Null).\n", -1);
+		return -1;
+	}
+	char* tempIn = inbuf;
+	int i = 0;
+	int j = strlen(tempIn) - 1;
+	int nCount = 0;
+	while (isspace(tempIn[i]) && tempIn[i] != '\0')
+	{
+		i++;
+	}
+	while (isspace(tempIn[j]) && tempIn[j] != '\0')
+	{
+		j--;
+	}
+	nCount = j - i;
+	strncpy(outbuf, tempIn + i, nCount);
+	outbuf[nCount] = '\0';
+	return 0;
+}
 
 int getKeyByVaule(char* keyvaluebuf, char* keybuf, char* valuebug, int* valuebuflen)
 {
@@ -44,17 +68,27 @@ int getKeyByVaule(char* keyvaluebuf, char* keybuf, char* valuebug, int* valuebuf
 		printf("getKeyBuValue fun error:%d\n", ret);
 		return ret;
 	}
+
+	//查找key是不是在母串中
 	char* temp = strstr(keyvaluebuf, keybuf);
 
 	if (temp == NULL)
 	{
 		ret = -2;
-		printf("the key is not in string");
+		printf("the key is not in string.\n");
+		return ret;
+	}
+	//看看有没有"="号
+	char* value = strstr(keyvaluebuf, "=") + 1;
+	if (value == NULL)
+	{
+		ret = -3;
+		printf("the string is not contain '='.\n");
 		return ret;
 	}
 
-	char* value = strstr(keyvaluebuf, "=") + 1;
-	ret = trimSpaceInKeyValue(value, valuebug);
+	//去除空格
+	ret = trimSpaceCorrect(value, valuebug);
 	*valuebuflen = strlen(valuebug);
 	return ret;
 }
