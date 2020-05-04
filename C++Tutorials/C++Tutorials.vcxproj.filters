@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\day01">
+      <UniqueIdentifier>{7ac38b68-fb88-4393-9b11-f5f147bb0584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\day02">
+      <UniqueIdentifier>{4e06f3e2-17bd-4c3e-86d2-9a5f672b6cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\exam">
+      <UniqueIdentifier>{08016686-5b60-4f7c-918e-943d056b61d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\day03">
+      <UniqueIdentifier>{d02edba2-1cfc-430e-a4a2-91f3bcabb251}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dm001_API.c">
+      <Filter>源文件\day01</Filter>
+    </ClCompile>
+    <ClCompile Include="dm002_数组作函数参数.c">
+      <Filter>源文件\day01</Filter>
+    </ClCompile>
+    <ClCompile Include="dm003_数据类型分析.c">
+      <Filter>源文件\day01</Filter>
+    </ClCompile>
+    <ClCompile Include="dm004_变量本质分析.c">
+      <Filter>源文件\day01</Filter>
+    </ClCompile>
+    <ClCompile Include="dm005_静态存储区理解.c">
+      <Filter>源文件\day01</Filter>
+    </ClCompile>
+    <ClCompile Include="dm006_堆栈区理解.c">
+      <Filter>源文件\day01</Filter>
+    </ClCompile>
+    <ClCompile Include="dm007_堆栈的开口属性.c">
+      <Filter>源文件\day01</Filter>
+    </ClCompile>
+    <ClCompile Include="dm008_函数调用模型.c">
+      <Filter>源文件\day01</Filter>
+    </ClCompile>
+    <ClCompile Include="dm009_指针也是一种数据类型.c">
+      <Filter>源文件\day01</Filter>
+    </ClCompile>
+    <ClCompile Include="dm010_野指针产生.c">
+      <Filter>源文件\day01</Filter>
+    </ClCompile>
+    <ClCompile Include="dm011_指针铁律.c">
+      <Filter>源文件\day02</Filter>
+    </ClCompile>
+    <ClCompile Include="dm012_间接赋值技术推演.c">
+      <Filter>源文件\day02</Filter>
+    </ClCompile>
+    <ClCompile Include="dm013_间接赋值应用.c">
+      <Filter>源文件\day02</Filter>
+    </ClCompile>
+    <ClCompile Include="dm014_指针输入和输出特性.c">
+      <Filter>源文件\day02</Filter>
+    </ClCompile>
+    <ClCompile Include="dm015_字符串基本操作.c">
+      <Filter>源文件\day02</Filter>
+    </ClCompile>
+    <ClCompile Include="dm016_一级指针内存模型.c">
+      <Filter>源文件\day02</Filter>
+    </ClCompile>
+    <ClCompile Include="dm017_字符串作函数参数.c">
+      <Filter>源文件\day02</Filter>
+    </ClCompile>
+    <ClCompile Include="dm018_项目开发中字符串模型strstr_while.c">
+      <Filter>源文件\day02</Filter>
+    </ClCompile>
+    <ClCompile Include="exam001.c">
+      <Filter>源文件\exam</Filter>
+    </ClCompile>
+    <ClCompile Include="exam002.c">
+      <Filter>源文件\exam</Filter>
+    </ClCompile>
+    <ClCompile Include="exam003.c">
+      <Filter>源文件\exam</Filter>
+    </ClCompile>
+    <ClCompile Include="dy019_两头堵模型.c">
+      <Filter>源文件\day03</Filter>
+    </ClCompile>
+    <ClCompile Include="dy020_字符串反转.c">
+      <Filter>源文件\day03</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dm001.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
