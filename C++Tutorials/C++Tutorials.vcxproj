@@ -164,9 +164,12 @@
     <ClCompile Include="dy023_二级指针做输入_第一内存模型.c" />
     <ClCompile Include="dy024_二级指针做输入_第二内存模型.c" />
     <ClCompile Include="dy025_二级指针做输入_第三内存模型.c" />
+    <ClCompile Include="dy026_二级指针内存模型.c" />
+    <ClCompile Include="dy027_玩转多级指针.c" />
     <ClCompile Include="exam001.c" />
     <ClCompile Include="exam002.c" />
     <ClCompile Include="exam003.c" />
+    <ClCompile Include="exam004.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dm001.h" />

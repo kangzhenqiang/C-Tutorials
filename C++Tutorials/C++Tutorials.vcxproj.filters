@@ -111,6 +111,15 @@
     <ClCompile Include="dy025_二级指针做输入_第三内存模型.c">
       <Filter>源文件\day03</Filter>
     </ClCompile>
+    <ClCompile Include="dy026_二级指针内存模型.c">
+      <Filter>源文件\day03</Filter>
+    </ClCompile>
+    <ClCompile Include="dy027_玩转多级指针.c">
+      <Filter>源文件\day03</Filter>
+    </ClCompile>
+    <ClCompile Include="exam004.c">
+      <Filter>源文件\exam</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dm001.h">

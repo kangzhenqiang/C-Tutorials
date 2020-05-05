@@ -147,7 +147,7 @@ void freeMem2(char** p2, int num)
 }
 
 
-void main()
+void maindy025002()
 {
 	int i = 0;
 	int j = 0;
