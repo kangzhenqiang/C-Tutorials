@@ -96,6 +96,21 @@
     <ClCompile Include="dy020_字符串反转.c">
       <Filter>源文件\day03</Filter>
     </ClCompile>
+    <ClCompile Include="dy021_const.c">
+      <Filter>源文件\day03</Filter>
+    </ClCompile>
+    <ClCompile Include="dy022_指针的输入和输出特性.c">
+      <Filter>源文件\day03</Filter>
+    </ClCompile>
+    <ClCompile Include="dy023_二级指针做输入_第一内存模型.c">
+      <Filter>源文件\day03</Filter>
+    </ClCompile>
+    <ClCompile Include="dy024_二级指针做输入_第二内存模型.c">
+      <Filter>源文件\day03</Filter>
+    </ClCompile>
+    <ClCompile Include="dy025_二级指针做输入_第三内存模型.c">
+      <Filter>源文件\day03</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dm001.h">

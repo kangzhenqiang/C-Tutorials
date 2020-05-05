@@ -159,6 +159,11 @@
     <ClCompile Include="dm018_项目开发中字符串模型strstr_while.c" />
     <ClCompile Include="dy019_两头堵模型.c" />
     <ClCompile Include="dy020_字符串反转.c" />
+    <ClCompile Include="dy021_const.c" />
+    <ClCompile Include="dy022_指针的输入和输出特性.c" />
+    <ClCompile Include="dy023_二级指针做输入_第一内存模型.c" />
+    <ClCompile Include="dy024_二级指针做输入_第二内存模型.c" />
+    <ClCompile Include="dy025_二级指针做输入_第三内存模型.c" />
     <ClCompile Include="exam001.c" />
     <ClCompile Include="exam002.c" />
     <ClCompile Include="exam003.c" />
