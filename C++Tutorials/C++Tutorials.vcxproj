@@ -166,6 +166,8 @@
     <ClCompile Include="dy025_二级指针做输入_第三内存模型.c" />
     <ClCompile Include="dy026_二级指针内存模型.c" />
     <ClCompile Include="dy027_玩转多级指针.c" />
+    <ClCompile Include="dy028_二级指针强化训练.c" />
+    <ClCompile Include="dy029_二级指针强化训练_被调函数分配内存.c" />
     <ClCompile Include="exam001.c" />
     <ClCompile Include="exam002.c" />
     <ClCompile Include="exam003.c" />
