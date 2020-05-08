@@ -129,6 +129,9 @@
     <ClCompile Include="dy029_二级指针强化训练_被调函数分配内存.c">
       <Filter>源文件\day04</Filter>
     </ClCompile>
+    <ClCompile Include="dy030_数组基础概念.c">
+      <Filter>源文件\day04</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dm001.h">

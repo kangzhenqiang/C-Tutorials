@@ -168,6 +168,7 @@
     <ClCompile Include="dy027_玩转多级指针.c" />
     <ClCompile Include="dy028_二级指针强化训练.c" />
     <ClCompile Include="dy029_二级指针强化训练_被调函数分配内存.c" />
+    <ClCompile Include="dy030_数组基础概念.c" />
     <ClCompile Include="exam001.c" />
     <ClCompile Include="exam002.c" />
     <ClCompile Include="exam003.c" />
