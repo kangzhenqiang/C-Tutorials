@@ -169,6 +169,9 @@
     <ClCompile Include="dy028_二级指针强化训练.c" />
     <ClCompile Include="dy029_二级指针强化训练_被调函数分配内存.c" />
     <ClCompile Include="dy030_数组基础概念.c" />
+    <ClCompile Include="dy031_多维数组的本质.c" />
+    <ClCompile Include="dy032_多维数组存储内存是线性的.c" />
+    <ClCompile Include="dy033_指针数组的应用场景.c" />
     <ClCompile Include="exam001.c" />
     <ClCompile Include="exam002.c" />
     <ClCompile Include="exam003.c" />

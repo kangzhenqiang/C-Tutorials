@@ -132,6 +132,15 @@
     <ClCompile Include="dy030_数组基础概念.c">
       <Filter>源文件\day04</Filter>
     </ClCompile>
+    <ClCompile Include="dy031_多维数组的本质.c">
+      <Filter>源文件\day04</Filter>
+    </ClCompile>
+    <ClCompile Include="dy032_多维数组存储内存是线性的.c">
+      <Filter>源文件\day04</Filter>
+    </ClCompile>
+    <ClCompile Include="dy033_指针数组的应用场景.c">
+      <Filter>源文件\day04</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dm001.h">
