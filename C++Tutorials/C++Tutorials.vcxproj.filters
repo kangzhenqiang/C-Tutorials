@@ -28,6 +28,9 @@
     <Filter Include="源文件\day04">
       <UniqueIdentifier>{881fc231-111a-466c-ac17-38ebd55f7dc6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\day05">
+      <UniqueIdentifier>{bcfe1fd9-8aa2-4a64-afbe-984c54996850}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dm001_API.c">
@@ -140,6 +143,36 @@
     </ClCompile>
     <ClCompile Include="dy033_指针数组的应用场景.c">
       <Filter>源文件\day04</Filter>
+    </ClCompile>
+    <ClCompile Include="dy034_定义一个结构体.c">
+      <Filter>源文件\day04</Filter>
+    </ClCompile>
+    <ClCompile Include="dy035_结构体做函数参数.c">
+      <Filter>源文件\day04</Filter>
+    </ClCompile>
+    <ClCompile Include="dy036_结构体做函数参数进阶.c">
+      <Filter>源文件\day04</Filter>
+    </ClCompile>
+    <ClCompile Include="dy037_结构体做函数参数进阶_二级指针.c">
+      <Filter>源文件\day04</Filter>
+    </ClCompile>
+    <ClCompile Include="dy038_二级指针强化训练.c">
+      <Filter>源文件\day05</Filter>
+    </ClCompile>
+    <ClCompile Include="dy039_结构体深拷贝和浅拷贝.c">
+      <Filter>源文件\day05</Filter>
+    </ClCompile>
+    <ClCompile Include="dy040_结构体中高级话题.c">
+      <Filter>源文件\day05</Filter>
+    </ClCompile>
+    <ClCompile Include="dy041_按照字符读写文件.c">
+      <Filter>源文件\day05</Filter>
+    </ClCompile>
+    <ClCompile Include="dy042_按照行读写文件.c">
+      <Filter>源文件\day05</Filter>
+    </ClCompile>
+    <ClCompile Include="dy043_按照块的方式操作文件.c">
+      <Filter>源文件\day05</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

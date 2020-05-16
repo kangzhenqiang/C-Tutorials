@@ -172,6 +172,16 @@
     <ClCompile Include="dy031_多维数组的本质.c" />
     <ClCompile Include="dy032_多维数组存储内存是线性的.c" />
     <ClCompile Include="dy033_指针数组的应用场景.c" />
+    <ClCompile Include="dy034_定义一个结构体.c" />
+    <ClCompile Include="dy035_结构体做函数参数.c" />
+    <ClCompile Include="dy036_结构体做函数参数进阶.c" />
+    <ClCompile Include="dy037_结构体做函数参数进阶_二级指针.c" />
+    <ClCompile Include="dy038_二级指针强化训练.c" />
+    <ClCompile Include="dy039_结构体深拷贝和浅拷贝.c" />
+    <ClCompile Include="dy040_结构体中高级话题.c" />
+    <ClCompile Include="dy041_按照字符读写文件.c" />
+    <ClCompile Include="dy042_按照行读写文件.c" />
+    <ClCompile Include="dy043_按照块的方式操作文件.c" />
     <ClCompile Include="exam001.c" />
     <ClCompile Include="exam002.c" />
     <ClCompile Include="exam003.c" />
