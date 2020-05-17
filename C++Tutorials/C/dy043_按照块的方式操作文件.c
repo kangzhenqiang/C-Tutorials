@@ -5,10 +5,11 @@
 #include <stdio.h>
 
 
+// void socketclient_send(void* handle, unsigned char* buf, int len);
+// void socketclient_send(void* handle, char* buf, int len);//ÒÔ0½áÎ²µÄ×Ö·û´®
 typedef struct TeacherTeacher {
 	char name[64];
 	int age;
-
 } TeacherTeacher;
 
 void main_fwrite()

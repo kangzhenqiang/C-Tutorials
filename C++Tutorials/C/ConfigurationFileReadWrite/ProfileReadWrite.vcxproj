@@ -20,10 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{4020F9D0-B8CB-4E1C-B5E9-DAF8BEA4B7ED}</ProjectGuid>
-    <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CTutorials</RootNamespace>
+    <ProjectGuid>{5DC528A6-2286-46BE-A2E8-31FEC2EFE59E}</ProjectGuid>
+    <RootNamespace>ProfileReadWrite</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ConfigurationFileReadWrite</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -86,7 +86,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -112,7 +112,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -139,56 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="dm001_API.c" />
-    <ClCompile Include="dm002_数组作函数参数.c" />
-    <ClCompile Include="dm003_数据类型分析.c" />
-    <ClCompile Include="dm004_变量本质分析.c" />
-    <ClCompile Include="dm005_静态存储区理解.c" />
-    <ClCompile Include="dm006_堆栈区理解.c" />
-    <ClCompile Include="dm007_堆栈的开口属性.c" />
-    <ClCompile Include="dm008_函数调用模型.c" />
-    <ClCompile Include="dm009_指针也是一种数据类型.c" />
-    <ClCompile Include="dm010_野指针产生.c" />
-    <ClCompile Include="dm011_指针铁律.c" />
-    <ClCompile Include="dm012_间接赋值技术推演.c" />
-    <ClCompile Include="dm013_间接赋值应用.c" />
-    <ClCompile Include="dm014_指针输入和输出特性.c" />
-    <ClCompile Include="dm015_字符串基本操作.c" />
-    <ClCompile Include="dm016_一级指针内存模型.c" />
-    <ClCompile Include="dm017_字符串作函数参数.c" />
-    <ClCompile Include="dm018_项目开发中字符串模型strstr_while.c" />
-    <ClCompile Include="dy019_两头堵模型.c" />
-    <ClCompile Include="dy020_字符串反转.c" />
-    <ClCompile Include="dy021_const.c" />
-    <ClCompile Include="dy022_指针的输入和输出特性.c" />
-    <ClCompile Include="dy023_二级指针做输入_第一内存模型.c" />
-    <ClCompile Include="dy024_二级指针做输入_第二内存模型.c" />
-    <ClCompile Include="dy025_二级指针做输入_第三内存模型.c" />
-    <ClCompile Include="dy026_二级指针内存模型.c" />
-    <ClCompile Include="dy027_玩转多级指针.c" />
-    <ClCompile Include="dy028_二级指针强化训练.c" />
-    <ClCompile Include="dy029_二级指针强化训练_被调函数分配内存.c" />
-    <ClCompile Include="dy030_数组基础概念.c" />
-    <ClCompile Include="dy031_多维数组的本质.c" />
-    <ClCompile Include="dy032_多维数组存储内存是线性的.c" />
-    <ClCompile Include="dy033_指针数组的应用场景.c" />
-    <ClCompile Include="dy034_定义一个结构体.c" />
-    <ClCompile Include="dy035_结构体做函数参数.c" />
-    <ClCompile Include="dy036_结构体做函数参数进阶.c" />
-    <ClCompile Include="dy037_结构体做函数参数进阶_二级指针.c" />
-    <ClCompile Include="dy038_二级指针强化训练.c" />
-    <ClCompile Include="dy039_结构体深拷贝和浅拷贝.c" />
-    <ClCompile Include="dy040_结构体中高级话题.c" />
-    <ClCompile Include="dy041_按照字符读写文件.c" />
-    <ClCompile Include="dy042_按照行读写文件.c" />
-    <ClCompile Include="dy043_按照块的方式操作文件.c" />
-    <ClCompile Include="exam001.c" />
-    <ClCompile Include="exam002.c" />
-    <ClCompile Include="exam003.c" />
-    <ClCompile Include="exam004.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="dm001.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
