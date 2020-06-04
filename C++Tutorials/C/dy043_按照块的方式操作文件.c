@@ -15,7 +15,7 @@ typedef struct TeacherTeacher {
 void main_fwrite()
 {
 	FILE* fp = NULL;
-	char* filename = "c:/3.data";
+	char* wangjing = "c:/3.data";
 
 	TeacherTeacher tArr[3];
 
