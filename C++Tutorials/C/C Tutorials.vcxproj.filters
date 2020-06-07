@@ -31,6 +31,9 @@
     <Filter Include="源文件\day05">
       <UniqueIdentifier>{bcfe1fd9-8aa2-4a64-afbe-984c54996850}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\day06">
+      <UniqueIdentifier>{7e4a8039-3d5f-46bd-91d0-e07d7589bc85}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dm001_API.c">
@@ -173,6 +176,12 @@
     </ClCompile>
     <ClCompile Include="dy043_按照块的方式操作文件.c">
       <Filter>源文件\day05</Filter>
+    </ClCompile>
+    <ClCompile Include="dy044_指针的其他用法.c">
+      <Filter>源文件\day06</Filter>
+    </ClCompile>
+    <ClCompile Include="dy045_再谈多级指针强化.c">
+      <Filter>源文件\day06</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

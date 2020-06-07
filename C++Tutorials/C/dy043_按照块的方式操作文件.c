@@ -81,7 +81,7 @@ void main_fread()
 	}
 }
 
-void main()
+void maindy043()
 {
 	main_fwrite();
 	main_fread();
