@@ -20,7 +20,7 @@ extern "C" {
 
 	//socket客户端初始化
 
-	int socket_client_init(void* handle/*out*/);
+	int socket_client_init(void** handle/*out*/);
 
 	//socket客户端报文发送
 
@@ -47,9 +47,26 @@ extern "C" {
 		//函数调用模型图	
 
 
+	/*-----------------------------------------*/
+	//初始化客户端
+	int cltSocketInit(void** handl/*out*/);
+
+	//客户端发报文
+	int cltSocketSend(void* handle/*in*/, unsigned char* buf/*in*/, int buflen/*in*/);
+
+	//客户端收报文
+	int cltSocketRev(void* handle/*in*/, unsigned char** buf/*out*/, int* buflen/*out*/);
+
+	int cltSocketRev_Free(unsigned char** buf/*out*/);
+
+	//客户端释放资源
+	int cltSocketDestory(void** handle/*out*/);
+	/*-----------------------------------------*/
+
 #ifdef _cplusplus
 }
 #endif // _cplusplus
+
 
 
 

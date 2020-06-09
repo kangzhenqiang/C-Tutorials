@@ -34,11 +34,10 @@ int getMem045(char** p/*20*/)
 	*p = 30;//间接赋值，p2是p的地址
 
 	*p = (char**)malloc(1000);
-
 }
 
 
-void maindy045002()
+void main()
 {
 	char* p = NULL;
 	char** p2 = NULL;
