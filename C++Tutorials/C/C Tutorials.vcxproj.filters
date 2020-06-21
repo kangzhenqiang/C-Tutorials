@@ -34,6 +34,9 @@
     <Filter Include="源文件\day06">
       <UniqueIdentifier>{7e4a8039-3d5f-46bd-91d0-e07d7589bc85}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\day07">
+      <UniqueIdentifier>{c2af1749-4939-40a9-99d9-4718304984af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dm001_API.c">
@@ -182,6 +185,15 @@
     </ClCompile>
     <ClCompile Include="dy045_再谈多级指针强化.c">
       <Filter>源文件\day06</Filter>
+    </ClCompile>
+    <ClCompile Include="dy046_链表热身.c">
+      <Filter>源文件\day07</Filter>
+    </ClCompile>
+    <ClCompile Include="dy047_静态链表.c">
+      <Filter>源文件\day07</Filter>
+    </ClCompile>
+    <ClCompile Include="dy048_链表的基本操作.c">
+      <Filter>源文件\day07</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

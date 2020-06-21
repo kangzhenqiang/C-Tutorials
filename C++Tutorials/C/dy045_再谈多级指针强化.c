@@ -37,7 +37,7 @@ int getMem045(char** p/*20*/)
 }
 
 
-void main()
+void maindy045002()
 {
 	char* p = NULL;
 	char** p2 = NULL;

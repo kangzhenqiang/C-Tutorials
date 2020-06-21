@@ -185,6 +185,9 @@
     <ClCompile Include="dy043_按照块的方式操作文件.c" />
     <ClCompile Include="dy044_指针的其他用法.c" />
     <ClCompile Include="dy045_再谈多级指针强化.c" />
+    <ClCompile Include="dy046_链表热身.c" />
+    <ClCompile Include="dy047_静态链表.c" />
+    <ClCompile Include="dy048_链表的基本操作.c" />
     <ClCompile Include="exam001.c" />
     <ClCompile Include="exam002.c" />
     <ClCompile Include="exam003.c" />
