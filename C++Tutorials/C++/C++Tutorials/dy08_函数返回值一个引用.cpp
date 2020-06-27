@@ -102,7 +102,9 @@ int& g2()
 	return a;
 }
 
-void maindy08()
+
+//cout<<a<<b<<endl; 引用 链式编程
+void maindy08002()
 {
 	//g1() = 10;
 	g2() = 20;

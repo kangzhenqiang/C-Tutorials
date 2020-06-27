@@ -20,7 +20,7 @@ void maindy05001()
 	const int a = 10;
 	int b = 20;
 
-	int array[a];
+	//int array[a];
 
 	//int array[a + b];
 	//linux内核里面是支持的，原因 编译linux内核的gcc编译器支持

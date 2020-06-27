@@ -148,6 +148,12 @@
     <ClCompile Include="dy06_引用.cpp" />
     <ClCompile Include="dy07_引用本质研究.cpp" />
     <ClCompile Include="dy08_函数返回值一个引用.cpp" />
+    <ClCompile Include="dy09_指针引用.cpp" />
+    <ClCompile Include="dy10_常量引用.cpp" />
+    <ClCompile Include="dy11_inline内联函数.cpp" />
+    <ClCompile Include="dy12_函数参数相关扩展.cpp" />
+    <ClCompile Include="dy13_函数重载.cpp" />
+    <ClCompile Include="dy14_函数重载和函数指针.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

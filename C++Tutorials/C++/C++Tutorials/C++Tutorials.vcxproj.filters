@@ -42,5 +42,23 @@
     <ClCompile Include="dy08_函数返回值一个引用.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="dy09_指针引用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dy10_常量引用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dy11_inline内联函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dy12_函数参数相关扩展.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dy13_函数重载.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dy14_函数重载和函数指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

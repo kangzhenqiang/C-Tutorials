@@ -39,7 +39,7 @@ void maindy04001()
 	const int a = 5;
 	int const b = 10;
 
-	const int* c;//const修饰的指针指向的内存空间，不能被修改
+	//const int* c;//const修饰的指针指向的内存空间，不能被修改
 	//const int* const d;
 
 	//c语言中的const是个冒牌货
