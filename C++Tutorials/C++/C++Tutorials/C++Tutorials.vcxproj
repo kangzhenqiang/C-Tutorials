@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C++Tutorials.cpp" />
+    <ClCompile Include="dy016_使用分离类.cpp" />
     <ClCompile Include="dy01_namespace.cpp" />
     <ClCompile Include="dy02_实用性增强.cpp" />
     <ClCompile Include="dy03_三目运算.cpp" />
@@ -154,6 +155,11 @@
     <ClCompile Include="dy12_函数参数相关扩展.cpp" />
     <ClCompile Include="dy13_函数重载.cpp" />
     <ClCompile Include="dy14_函数重载和函数指针.cpp" />
+    <ClCompile Include="dy15_类的封装.cpp" />
+    <ClCompile Include="TeacherAdvance.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TeacherAdvance.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

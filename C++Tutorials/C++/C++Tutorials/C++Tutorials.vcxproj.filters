@@ -60,5 +60,19 @@
     <ClCompile Include="dy14_函数重载和函数指针.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="dy15_类的封装.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TeacherAdvance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dy016_使用分离类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TeacherAdvance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
