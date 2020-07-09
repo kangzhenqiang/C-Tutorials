@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void main()
+void maindy016()
 {
 	TeacherAdvance t;
 	t.setAge(32);

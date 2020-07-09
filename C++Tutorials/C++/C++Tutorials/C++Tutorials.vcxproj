@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C++Tutorials.cpp" />
-    <ClCompile Include="dy016_使用分离类.cpp" />
+    <ClCompile Include="dy16_使用分离类.cpp" />
     <ClCompile Include="dy01_namespace.cpp" />
     <ClCompile Include="dy02_实用性增强.cpp" />
     <ClCompile Include="dy03_三目运算.cpp" />
@@ -156,6 +156,9 @@
     <ClCompile Include="dy13_函数重载.cpp" />
     <ClCompile Include="dy14_函数重载和函数指针.cpp" />
     <ClCompile Include="dy15_类的封装.cpp" />
+    <ClCompile Include="dy17_对象生命周期管理.cpp" />
+    <ClCompile Include="dy18_构造函数的分类.cpp" />
+    <ClCompile Include="dy19_显示初始化方案.cpp" />
     <ClCompile Include="TeacherAdvance.cpp" />
   </ItemGroup>
   <ItemGroup>

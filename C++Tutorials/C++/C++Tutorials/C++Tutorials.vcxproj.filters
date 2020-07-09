@@ -66,7 +66,16 @@
     <ClCompile Include="TeacherAdvance.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="dy016_使用分离类.cpp">
+    <ClCompile Include="dy16_使用分离类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dy17_对象生命周期管理.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dy18_构造函数的分类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dy19_显示初始化方案.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
