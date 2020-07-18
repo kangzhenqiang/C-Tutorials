@@ -62,7 +62,7 @@ TestTestTest::~TestTestTest()
 
 		*/
 
-int main()
+int maindy019()
 {
 	//1
 	TestTestTest t1;//调用无参数构造函数
