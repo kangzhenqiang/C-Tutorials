@@ -18,14 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="dy63_.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1bd49f9a-acef-4241-94e9-e6ff596415a8}</ProjectGuid>
-    <RootNamespace>CTutorials</RootNamespace>
+    <ProjectGuid>{c50bcc13-4c77-4547-a4ba-8993d7f5e629}</ProjectGuid>
+    <RootNamespace>信息系统框架继承第三方产品</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,6 +138,21 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CEncDesProtocol.h" />
+    <ClInclude Include="CSkFactoryImp1.h" />
+    <ClInclude Include="CSocketProtocol.h" />
+    <ClInclude Include="des.h" />
+    <ClInclude Include="HwEncDec.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CSkFactoryImp1.cpp" />
+    <ClCompile Include="des.c" />
+    <ClCompile Include="HwEncDec.cpp" />
+    <ClCompile Include="mainclass01.cpp" />
+    <ClCompile Include="mainclass02.cpp" />
+    <ClCompile Include="mainclass03.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
