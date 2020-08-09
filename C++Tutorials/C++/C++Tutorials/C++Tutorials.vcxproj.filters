@@ -13,16 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\dy01-03">
-      <UniqueIdentifier>{10942e86-735c-4f6c-9672-9e157d02cd1c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\dy04-08">
-      <UniqueIdentifier>{57e36b1d-09bd-49ef-82eb-68a36e269730}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dy66_.cpp">
-      <Filter>源文件\dy04-08</Filter>
+    <ClCompile Include="dy78_.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
