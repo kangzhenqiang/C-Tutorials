@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dy78_.cpp">
+    <ClCompile Include="dy80_异常类型_异常变量的声明周期.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
