@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++Tutorials", "C++Tutorial
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "信息系统框架继承第三方产品", "信息系统框架继承第三方产品\信息系统框架继承第三方产品.vcxproj", "{C50BCC13-4C77-4547-A4BA-8993D7F5E629}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructure", "DataStructure\DataStructure.vcxproj", "{EE02D934-FB44-43A8-ADB1-8D5F519AC589}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{C50BCC13-4C77-4547-A4BA-8993D7F5E629}.Release|x64.Build.0 = Release|x64
 		{C50BCC13-4C77-4547-A4BA-8993D7F5E629}.Release|x86.ActiveCfg = Release|Win32
 		{C50BCC13-4C77-4547-A4BA-8993D7F5E629}.Release|x86.Build.0 = Release|Win32
+		{EE02D934-FB44-43A8-ADB1-8D5F519AC589}.Debug|x64.ActiveCfg = Debug|x64
+		{EE02D934-FB44-43A8-ADB1-8D5F519AC589}.Debug|x64.Build.0 = Debug|x64
+		{EE02D934-FB44-43A8-ADB1-8D5F519AC589}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE02D934-FB44-43A8-ADB1-8D5F519AC589}.Debug|x86.Build.0 = Debug|Win32
+		{EE02D934-FB44-43A8-ADB1-8D5F519AC589}.Release|x64.ActiveCfg = Release|x64
+		{EE02D934-FB44-43A8-ADB1-8D5F519AC589}.Release|x64.Build.0 = Release|x64
+		{EE02D934-FB44-43A8-ADB1-8D5F519AC589}.Release|x86.ActiveCfg = Release|Win32
+		{EE02D934-FB44-43A8-ADB1-8D5F519AC589}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
