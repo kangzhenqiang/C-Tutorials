@@ -31,6 +31,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据结构", "数据结�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "队列的顺序存储设计与实现", "队列的顺序存储设计与实现\队列的顺序存储设计与实现.vcxproj", "{F967ABB8-7F37-42A0-9DA5-1FA1FA7C9BCB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "队列的链式存储设计与实现", "队列的链式存储设计与实现\队列的链式存储设计与实现.vcxproj", "{1A58857A-D11F-4BB6-B817-5F284A92F5F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树课堂操练", "二叉树课堂操练\二叉树课堂操练.vcxproj", "{08D834F3-C51A-4EA8-996B-B07B7C4912A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -143,6 +147,22 @@ Global
 		{F967ABB8-7F37-42A0-9DA5-1FA1FA7C9BCB}.Release|x64.Build.0 = Release|x64
 		{F967ABB8-7F37-42A0-9DA5-1FA1FA7C9BCB}.Release|x86.ActiveCfg = Release|Win32
 		{F967ABB8-7F37-42A0-9DA5-1FA1FA7C9BCB}.Release|x86.Build.0 = Release|Win32
+		{1A58857A-D11F-4BB6-B817-5F284A92F5F0}.Debug|x64.ActiveCfg = Debug|x64
+		{1A58857A-D11F-4BB6-B817-5F284A92F5F0}.Debug|x64.Build.0 = Debug|x64
+		{1A58857A-D11F-4BB6-B817-5F284A92F5F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{1A58857A-D11F-4BB6-B817-5F284A92F5F0}.Debug|x86.Build.0 = Debug|Win32
+		{1A58857A-D11F-4BB6-B817-5F284A92F5F0}.Release|x64.ActiveCfg = Release|x64
+		{1A58857A-D11F-4BB6-B817-5F284A92F5F0}.Release|x64.Build.0 = Release|x64
+		{1A58857A-D11F-4BB6-B817-5F284A92F5F0}.Release|x86.ActiveCfg = Release|Win32
+		{1A58857A-D11F-4BB6-B817-5F284A92F5F0}.Release|x86.Build.0 = Release|Win32
+		{08D834F3-C51A-4EA8-996B-B07B7C4912A7}.Debug|x64.ActiveCfg = Debug|x64
+		{08D834F3-C51A-4EA8-996B-B07B7C4912A7}.Debug|x64.Build.0 = Debug|x64
+		{08D834F3-C51A-4EA8-996B-B07B7C4912A7}.Debug|x86.ActiveCfg = Debug|Win32
+		{08D834F3-C51A-4EA8-996B-B07B7C4912A7}.Debug|x86.Build.0 = Debug|Win32
+		{08D834F3-C51A-4EA8-996B-B07B7C4912A7}.Release|x64.ActiveCfg = Release|x64
+		{08D834F3-C51A-4EA8-996B-B07B7C4912A7}.Release|x64.Build.0 = Release|x64
+		{08D834F3-C51A-4EA8-996B-B07B7C4912A7}.Release|x86.ActiveCfg = Release|Win32
+		{08D834F3-C51A-4EA8-996B-B07B7C4912A7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,6 +174,8 @@ Global
 		{97B50B9A-965B-42F3-8EAC-EDE588B1CE9D} = {2A349060-77E5-4BAE-9F84-64AE72B2D380}
 		{DB938355-D584-4800-AC6A-E63B05E92F93} = {2A349060-77E5-4BAE-9F84-64AE72B2D380}
 		{F967ABB8-7F37-42A0-9DA5-1FA1FA7C9BCB} = {2A349060-77E5-4BAE-9F84-64AE72B2D380}
+		{1A58857A-D11F-4BB6-B817-5F284A92F5F0} = {2A349060-77E5-4BAE-9F84-64AE72B2D380}
+		{08D834F3-C51A-4EA8-996B-B07B7C4912A7} = {2A349060-77E5-4BAE-9F84-64AE72B2D380}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEA2C9C7-2DFA-4CEA-AC9F-C02E0CE0FA39}
