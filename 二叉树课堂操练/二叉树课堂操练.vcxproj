@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dm04_非递归遍历.cpp" />
+    <ClCompile Include="mainSeqlist.cpp" />
+    <ClCompile Include="SeqList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SeqList.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
