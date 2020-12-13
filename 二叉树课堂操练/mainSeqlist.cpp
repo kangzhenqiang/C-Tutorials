@@ -1,5 +1,6 @@
 
 #include "SeqList.cpp"
+#include "SeqList.h"
 #include <iostream>
 
 
